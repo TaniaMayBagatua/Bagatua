@@ -1,0 +1,16 @@
+NAME = input ("Name of student: ")
+SCIENCE = input ("Enter Grade in Science: ")
+MATH =  input ("Enter Grade in Math: ")
+ENGLISH = input ("Enter Grade in English: ")
+total = float (SCIENCE) + float (MATH) + float (ENGLISH)
+AVERAGE = float (total) /3
+print ("Name: ", NAME)
+print("Science: ", SCIENCE) 
+print("Math: ", MATH)
+print("English", ENGLISH)
+print("Average: ", AVERAGE)
+
+if AVERAGE < 75:
+    print(" YOU FAILED!!!!!")
+if AVERAGE < 80:
+    print("Congratualations you Passed")
